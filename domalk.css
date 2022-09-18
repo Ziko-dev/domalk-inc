@@ -1,0 +1,519 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+@font-face {
+font-family: font1;
+src: url("fonts/Abel-Regular.woff");
+ }
+  
+ @font-face {
+font-family: font2;
+src: url("fonts/Barlow-Regular.woff");
+ }
+  
+  @font-face {
+font-family: font3;
+src: url("fonts/Grandstander-Thin.woff");
+  }
+  
+  @font-face {
+font-family: font4;
+src: url("fonts/Lato-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font5;
+src: url("fonts/Montserrat-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font6;
+src: url("fonts/Nunito-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font7;
+src: url("fonts/Satisfy-Regular.WOFF");
+  }
+  
+  @font-face {
+font-family: font8;
+src: url("fonts/Righteous-Regular.WOFF");
+  }
+  
+  @font-face {
+font-family: font9;
+src: url("fonts/LondrinaSolid-Regular.WOFF");
+  }
+  
+  @font-face {
+font-family: font10;
+src: url("fonts/LobsterTwo-Regular.WOFF");
+  }
+  
+  @font-face {
+font-family: font11;
+src: url("fonts/BigShouldersInlineText-Regular.WOFF");
+  }
+  
+  @font-face {
+font-family: font12;
+src: url("fonts/BigShouldersInlineText-Black.WOFF");
+  }
+  
+  @font-face {
+font-family: font13;
+src: url("fonts/Akronim-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font14;
+src: url("fonts/Akronim-Regular-1.woff");
+  }
+  
+  @font-face {
+font-family: font15;
+src: url("fonts/AndadaPro-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font16;
+src: url("fonts/ArchitectsDaughter-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font17;
+src: url("fonts/Birthstone-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font18;
+src: url("fonts/OpenSansCondensed-Bold.woff");
+  }
+  
+  @font-face {
+font-family: font19;
+src: url("fonts/OpenSansCondensed-Light.woff");
+  }
+  
+  @font-face {
+font-family: font20;
+src: url("fonts/Oswald-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font21;
+src: url("fonts/Poppins-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font22;
+src: url("fonts/Raleway-Regular.woff");
+  }
+  
+  @font-face {
+font-family: font23;
+src: url("fonts/Ubuntu-Bold.woff");
+  }
+  
+  @font-face {
+font-family: font24;
+src: url("fonts/Ubuntu-Regular.woff");
+  }
+
+body{
+background: ghostwhite;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+nav header{
+display: flex;
+margin:0;
+padding: 0;
+}
+nav header h1{
+display: inline-block;
+font-family: font24;
+font-size: xx-large;
+}
+nav header #logo{
+border-radius: 505;
+
+}
+nav #icon-container{
+display: flex;
+margin: auto 0;
+}
+nav #icon-container .media-logo{
+width: 1.5em;
+border: none;
+border-radius: 8px;
+margin-right: 1em;
+}
+#section-1{
+width: 95%;
+height: 500px;
+background: url(./images/pic2.jpg);
+image-rendering: pixelated;
+box-shadow: 1000px solid black;
+filter: brightness(85%);
+background-position:left;
+background-repeat: no-repeat;
+background-size: cover;
+background-origin: border-box;
+margin: 0 auto;
+}
+#section-container{
+  padding-left: 35px;
+width: 100%;
+height: 100%;
+padding-top: 30px;
+}
+#section-container h2{
+font-family: 'font6';
+font-size: 4em;
+color: tomato;
+letter-spacing: 4px;
+}
+#section-container #para{
+font-size: 14px;
+color: #ffffff;
+font-family: 'font19';
+line-height: 20px;
+}
+#section-container address{  color: #ffffff;}
+#section-container #section-input{
+/*position: absolute;
+height: 50px;*/
+width: 100%;
+}
+#section-container #section-input input{
+border: none;
+width: 35%;
+height: 2em;
+outline: none;
+}
+#section-container #section-input button{
+border: none;
+outline: none;
+width: 7em;
+height: 2em;
+margin-top: 10px;
+margin-bottom: 5px;
+display: inline-block;
+background: #ee563b;
+color: whitesmoke;
+cursor: pointer;
+}
+#service-container{
+width: 95%;
+margin: 2% auto;
+
+}
+#service-cup-container{
+width: 90%;
+height: auto;
+display: flex;
+margin: 0 auto;
+flex-direction: row;
+justify-content: space-around;
+}
+#first-s-cup{background: orange;}
+#s-cup1{background: #ee563b;}
+#s-cup2{background: rgb(23 18 18);}
+#s-cup3{background: #5e5959;}
+
+#service-container .service-cup{
+width: 24%;
+border: none;
+border-radius: 2px;
+text-align: center;
+padding: 10px 10px;
+}
+
+.service-num{
+font-size: 4em;
+font-family: 'font18';
+line-height: 1em;
+color: whitesmoke;
+}
+.service{
+font-family: font19;
+font-size: medium;
+line-height: 60px;
+color: whitesmoke;
+}
+.service-icon{
+width: 2em;
+background: whitesmoke;
+border: none;
+border-radius: 50%;
+margin-top: 15px;
+}
+blockquote{
+font-size: 13px;
+font-family: 'font19';
+color: #f4ead9;
+line-height: 18px;
+}
+
+#third-section{
+  width: 95%;
+height: 100%;
+background: rgb(232 232 232);
+margin: 0 auto;
+}
+#third-section #third-container{
+text-align: center;
+width: 95%;
+margin: 5% auto;
+padding-top: 50px;
+}
+#third-section #third-container #third-section-h3{
+font-size: 2em;
+font-family: 'font6';
+font-weight: bolder;
+color: #ee563b;
+}
+#third-section #third-container #third-section-p{
+font-size: 13px;
+font-family: 'font19';
+color: gray;
+word-spacing: 2px;
+letter-spacing: 1px;
+}
+#third-section #third-container #third-section-btn{
+  width: 13em;
+height: 2.5em;
+border: none;
+font-size: large;
+margin-top: 10px;
+color: whitesmoke;
+background: #ee563b;
+text-transform: capitalize;
+padding: 5px 5px;
+margin-bottom: 10px;
+box-shadow: 0px 0px 3px 1px #89898952;
+}
+
+#forth-section{
+width: 95%;
+    height: 100%;
+    padding: 5em 0;
+margin: 0 auto;
+background: #ee563b;
+position: relative;
+}
+#forth-section #forth-container{
+width: 95%;
+height: 90%;
+justify-content: space-between;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+}
+#forth-section #forth-container #first-column{
+width: 32%;
+/*height: 100%;*/
+background: none;
+padding-left: 20px;
+background: white;
+}
+
+#forth-container #first-column #h2-column{
+font-family: 'font21';
+letter-spacing: 2px;
+word-spacing: 1px;
+padding-top: 25px;
+}
+#forth-container #first-column #h3-column{
+font-family: 'font6';
+font-size: 2em;
+-webkit-text-stroke: thin;
+color: #ee563b;
+}
+#forth-container #first-column #p-column{
+font-size: 13px;
+word-spacing: 3px;
+letter-spacing: 1px;
+line-height: 21px;
+padding-bottom: 24px;
+padding-top: 24px;
+font-family: 'font20';
+}
+#forth-container #first-column #ul-column{margin-left: 15px;}
+#forth-container #first-column #ul-column .li-column{
+list-style-type: disc;
+line-height: 21px;
+font-size: 13px;
+font-family: 'font19';
+font-weight: 500;
+}
+#forth-container #first-column #p2-column{
+font-size: 12px;
+font-family: 'font6';
+line-height: 100px;
+}
+#forth-container #figure-work1 #image-work{
+width: 100%;
+height: 100%;
+image-rendering: pixelated;
+object-fit: cover;
+}
+#forth-container #figure-work1{
+width: 32%;
+/*height: 100%;*/
+}
+.container-for-image{
+  width: 100%;
+  height: 100%;
+}
+#forth-section #forth-container #third-column{
+width: 32%;
+height: 100%;
+background: none;
+}
+.flex-container-for-image{
+  width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.for-each-container{
+  width: 100%;
+  height: 49%;
+}
+.for-each-content{
+  width: 100%;
+  height: 100%;
+}
+#forth-container #third-column .image-workII{
+width: 100%;
+height: 100%;
+image-rendering: pixelated;
+object-fit: cover;
+}
+
+#copyrights{
+font-family: 'font4'; 
+font-size: 16px;
+}
+@media(min-width:1200px){
+  #section-1{
+    height: 700px;
+  }
+  #section-container{
+    padding-top: 100px;
+  }
+}
+@media (max-width:1000px){
+  #section-1{
+    height: 350px;
+  }
+nav header #logo{
+width: 25px;
+height: 25px;
+}
+nav header h1{
+font-size: 20px;
+}
+nav #icon-container .media-logo{
+width: 15px;
+height: 15px;
+}
+#section-container h2{
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#section-container #para {
+  font-size: 15px;
+}
+#section-container #section-input input {
+  width: 70%;
+}
+#section-container #section-input button {
+ font-size: 12px;
+ padding: 5px;
+  width: 60px;
+  height: 25px;
+}
+#section-container{
+height: 50%;
+padding-left:20px;
+}
+#service-cup-container{
+width: 95%;
+flex-wrap: wrap;
+}
+#service-container .service-cup{
+width: 48%;
+margin: 2% auto;
+}
+#third-section #third-container #third-section-p{
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  line-height: 1.4;
+word-spacing: 0px;
+letter-spacing: 0px;
+}
+#third-section #third-container #third-section-btn{
+  width: 100px;
+  height: 30px;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+}
+#forth-container #first-column #h3-column {
+  font-size: 18px;
+}
+#forth-container #first-column #h2-column{
+  font-size: 22px;
+}
+#copyrights{
+font-size: 9px;
+}
+#third-section #third-container #third-section-h3{
+  font-size: 1em;
+}
+#forth-section{
+  height: 100%;
+}
+#forth-section #forth-container{
+  flex-direction: column;
+}
+#forth-section #forth-container #first-column{
+  width: 100%;
+}
+#forth-container #figure-work1{
+  width: 100%;
+}
+#forth-section #forth-container #third-column{
+  width: 100%;
+}
+.flex-container-for-image{
+  width: 100%;
+  flex-direction: row;
+}
+.for-each-container{
+  width: 49%;
+  height: auto;
+}
+}
